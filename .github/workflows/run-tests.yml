@@ -1,6 +1,7 @@
-# .github/workflows/run-tests.yml
+# Должно быть ТОЧНО такое начало:
 name: Run Automated Tests
 
+# Эти строки ОБЯЗАТЕЛЬНЫ для автоматического запуска:
 on:
   push:
     branches: [ main, master ]
